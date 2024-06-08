@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "projectmod",
+	"version": "${version}",
+	"name": "Project Mod",
+	"description": "This is a mod that adds new armor and tools, it also adds some features that ease the game!",
+	"authors": [
+		"Aleksandar Stojiljkovic, Pavle Vasic, Djordje Djordjevic"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/projectmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.moggeri.projectmod.ProjectMod"
+		],
+		"client": [
+			"net.moggeri.projectmod.ProjectModClient"
+		],
+		"fabric-datagen": [
+			"net.moggeri.projectmod.ProjectModDataGenerator"
+		]
+	},
+	"mixins": [
+		"projectmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
