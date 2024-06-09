@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-06-09 11:38:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-09 11:36:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2024-06-09 11:37:56 +0200",
+      "minecraft:stony_shore": "2024-06-09 11:36:56 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

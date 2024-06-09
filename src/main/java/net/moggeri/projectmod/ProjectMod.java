@@ -2,6 +2,9 @@ package net.moggeri.projectmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.moggeri.projectmod.block.ModBlocks;
+import net.moggeri.projectmod.item.ModItemGroups;
+import net.moggeri.projectmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +14,8 @@ public class ProjectMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registeritemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
