@@ -5,5 +5,18 @@
   "block.projectmod.djanium_ore": "Djanium Ore",
   "block.projectmod.saban_ore": "Saban Ore",
 
+  "item.projectmod.djanium_helmet": "Djanium Helmet",
+  "item.projectmod.djanium_chestplate": "Djanium Chestplate",
+  "item.projectmod.djanium_leggings": "Djanium Leggings",
+  "item.projectmod.djanium_boots": "Djanium Boots",
+
+  "item.projectmod.saban_helmet": "Saban Helmet",
+  "item.projectmod.saban_chestplate": "Saban Chestplate",
+  "item.projectmod.saban_leggings": "Saban Leggings",
+  "item.projectmod.saban_boots": "Saban Boots",
+
+
+  "item.projectmod.djanium_pickaxe": "Djanium Pickaxe",
+
   "itemgroup.djanium": "Djaconic Revolution"
 }

@@ -21,6 +21,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DJANIUM_ORE);
                         entries.add(ModBlocks.SABAN_ORE);
 
+                        entries.add(ModItems.DJANIUM_PICKAXE);
+
+                        entries.add(ModItems.DJANIUM_HELMET);
+                        entries.add(ModItems.DJANIUM_CHESTPLATE);
+                        entries.add(ModItems.DJANIUM_LEGGINGS);
+                        entries.add(ModItems.DJANIUM_BOOTS);
+
+                        entries.add(ModItems.SABAN_HELMET);
+                        entries.add(ModItems.SABAN_CHESTPLATE);
+                        entries.add(ModItems.SABAN_LEGGINGS);
+                        entries.add(ModItems.SABAN_BOOTS);
+
                     }).build());//Dodavanje custom creative table i dodavanje itema u nju
     public static void registeritemGroups(){
         ProjectMod.LOGGER.info("Registering item Groups for"+ ProjectMod.MOD_ID);
