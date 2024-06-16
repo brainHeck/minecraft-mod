@@ -18,7 +18,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
 
 
-    private static  Block registerBlock(String name, Block block){
+    private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ProjectMod.MOD_ID, name), block);
     }//Registrovanje samih blokova
