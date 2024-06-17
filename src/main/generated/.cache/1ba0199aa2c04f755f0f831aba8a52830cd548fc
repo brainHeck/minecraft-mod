@@ -1,0 +1,9 @@
+// 1.20.1	2024-06-18T00:10:14.8069632	Project Mod/Model Definitions
+ccd410a9e96f17cab43bb53524b98c0025268783 assets\projectmod\models\item\djanium_ore.json
+df5420fdbb92e58fc0d6c61d5fff09c823972329 assets\projectmod\models\item\djanium.json
+8dbfa37847e13ba3c149c589eb761cfd43bcb5dc assets\projectmod\blockstates\djanium_ore.json
+295983adc59b883f5007ebafe3f3d9c0961efcc6 assets\projectmod\models\block\djanium_ore.json
+53eb742e2ce1d5e5e918cbd3432cea6ebc1d1f45 assets\projectmod\models\block\saban_ore.json
+fd31a415b2a05f814bed7fcd2dccb225a66401e1 assets\projectmod\models\item\saban_ore.json
+3eae0f17abd76c3bea31bdf5f6f20ffe8e2db871 assets\projectmod\models\item\saban_crystal.json
+d31db3804489044e9498a4edc473c9312279ba28 assets\projectmod\blockstates\saban_ore.json
