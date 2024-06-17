@@ -4,18 +4,20 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.moggeri.projectmod.ProjectMod;
 
 public class ModBlocks {
     public static final Block DJANIUM_ORE = registerBlock("djanium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(2f), UniformIntProvider.create(2,5)));
     public static final Block SABAN_ORE = registerBlock("saban_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE).strength(2f), UniformIntProvider.create(2,5)));
 
 
     private static Block registerBlock(String name, Block block) {

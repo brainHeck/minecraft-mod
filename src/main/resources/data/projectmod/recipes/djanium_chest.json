@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "projectmod:djanium"
+    }
+  },
+  "result": {
+    "item": "projectmod:djanium_chestplate"
+  }
+}
