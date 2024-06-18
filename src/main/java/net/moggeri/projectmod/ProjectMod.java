@@ -2,7 +2,10 @@ package net.moggeri.projectmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.moggeri.projectmod.block.ModBlocks;
+import net.moggeri.projectmod.entity.ModEntities;
+import net.moggeri.projectmod.entity.custom.GolemEntity;
 import net.moggeri.projectmod.item.ModItemGroups;
 import net.moggeri.projectmod.item.ModItems;
 import net.moggeri.projectmod.world.gen.ModWorldGeneration;
@@ -19,5 +22,8 @@ public class ProjectMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.GOLEM, GolemEntity.createGolemAttributes());
 	}
+
 }
