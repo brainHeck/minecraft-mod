@@ -23,5 +23,17 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.DJANIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.SABAN_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DJANIUM_PICKAXE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.DJANIUM_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DJANIUM_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DJANIUM_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DJANIUM_BOOTS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SABAN_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SABAN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SABAN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SABAN_BOOTS, Models.GENERATED);
+
     }
 }

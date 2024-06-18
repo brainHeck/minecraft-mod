@@ -1,9 +1,18 @@
-// 1.20.1	2024-06-18T00:10:14.8069632	Project Mod/Model Definitions
-ccd410a9e96f17cab43bb53524b98c0025268783 assets\projectmod\models\item\djanium_ore.json
-df5420fdbb92e58fc0d6c61d5fff09c823972329 assets\projectmod\models\item\djanium.json
-8dbfa37847e13ba3c149c589eb761cfd43bcb5dc assets\projectmod\blockstates\djanium_ore.json
-295983adc59b883f5007ebafe3f3d9c0961efcc6 assets\projectmod\models\block\djanium_ore.json
-53eb742e2ce1d5e5e918cbd3432cea6ebc1d1f45 assets\projectmod\models\block\saban_ore.json
+// 1.20.1	2024-06-18T18:29:04.1132066	Project Mod/Model Definitions
 fd31a415b2a05f814bed7fcd2dccb225a66401e1 assets\projectmod\models\item\saban_ore.json
+16a012f2937ed27bcf6036ff0749144cce203b10 assets\projectmod\models\item\djanium_helmet.json
+64434a90c73ec83ea372502a43ea130eb135fec1 assets\projectmod\models\item\djanium_boots.json
+73d0be13bdf12a0d15a8d2dbfed81e996668d263 assets\projectmod\models\item\saban_chestplate.json
+e2ac3b70c14c82553bf92e65e25fea4712976d5d assets\projectmod\models\item\djanium_leggings.json
+29143d4508802a48278de1d65c7557b5e36c56c5 assets\projectmod\models\item\saban_helmet.json
 3eae0f17abd76c3bea31bdf5f6f20ffe8e2db871 assets\projectmod\models\item\saban_crystal.json
+8dbfa37847e13ba3c149c589eb761cfd43bcb5dc assets\projectmod\blockstates\djanium_ore.json
+53eb742e2ce1d5e5e918cbd3432cea6ebc1d1f45 assets\projectmod\models\block\saban_ore.json
+295983adc59b883f5007ebafe3f3d9c0961efcc6 assets\projectmod\models\block\djanium_ore.json
+b70dbee7d4d60c8148a555ca5122b35854b3bacd assets\projectmod\models\item\djanium_chestplate.json
+875c88d60ff0fa24fb7bca33ec0ba5cb7b885cca assets\projectmod\models\item\djanium_pickaxe.json
 d31db3804489044e9498a4edc473c9312279ba28 assets\projectmod\blockstates\saban_ore.json
+94d5abc4a2f76242335a4180d93af75f038d3c81 assets\projectmod\models\item\saban_leggings.json
+df5420fdbb92e58fc0d6c61d5fff09c823972329 assets\projectmod\models\item\djanium.json
+2ec3f59e0ffa22c2ede3afac5018d10e475f4787 assets\projectmod\models\item\saban_boots.json
+ccd410a9e96f17cab43bb53524b98c0025268783 assets\projectmod\models\item\djanium_ore.json
