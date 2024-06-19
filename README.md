@@ -1,3 +1,3 @@
-# Hello, World!
+Ovo je poseban deo za moje lude ideje i eksperimente. Stavke koje hocu da dodam:
 
-Ovo sme samo na dev grani da se vidi.
+- Shimmer (kada se ubaci jedan item dobija se drugi, bolji item);
