@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "weapon",
+  "pattern":
+          [
+            "  D",
+            " S ",
+            "S  "
+          ],
+  "key": {
+    "D": {
+      "item" : "projectmod:djanium_ingot"
+    },
+    "S": {
+      "item" : "minecraft:stick"
+    },
+    "result" : {
+      "item" : "projectmod:djanium_dagger"
+    }
+  }
+}

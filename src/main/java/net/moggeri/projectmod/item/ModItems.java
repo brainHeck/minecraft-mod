@@ -3,10 +3,7 @@ package net.moggeri.projectmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,8 +18,28 @@ public class ModItems {
     public static final Item SABAN_CRYSTAL = registerItem("saban_crystal", new Item(new FabricItemSettings()));
     //Saban kristal item
 
+
     public static final Item DJANIUM_PICKAXE = registerItem("djanium_pickaxe",
-            new PickaxeItem(ModToolMaterial.DJANIUM,2,4f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.DJANIUM,2,3f, new FabricItemSettings()));
+    public static final Item DJANIUM_AXE = registerItem("djanium_axe",
+            new AxeItem(ModToolMaterial.DJANIUM,2,3f, new FabricItemSettings()));
+    public static final Item DJANIUM_HOE = registerItem("djanium_hoe",
+            new HoeItem(ModToolMaterial.DJANIUM,1,2f, new FabricItemSettings()));
+    public static final Item DJANIUM_SHOVEL = registerItem("djanium_shovel",
+            new ShovelItem(ModToolMaterial.DJANIUM,2,2f, new FabricItemSettings()));
+    public static final Item DJANIUM_DAGGER = registerItem("djanium_dagger",
+            new SwordItem(ModToolMaterial.DJANIUM,4,3f, new FabricItemSettings()));
+
+    public static final Item SABAN_PICKAXE = registerItem("saban_pickaxe",
+            new PickaxeItem(ModToolMaterial.SABAN_CRYSTAL,2,3f, new FabricItemSettings()));
+    public static final Item SABAN_AXE = registerItem("saban_axe",
+            new AxeItem(ModToolMaterial.SABAN_CRYSTAL,2,3f, new FabricItemSettings()));
+    public static final Item SABAN_HOE = registerItem("saban_hoe",
+            new HoeItem(ModToolMaterial.SABAN_CRYSTAL,1,2f, new FabricItemSettings()));
+    public static final Item SABAN_SHOVEL = registerItem("saban_shovel",
+            new ShovelItem(ModToolMaterial.SABAN_CRYSTAL,2,2f, new FabricItemSettings()));
+    public static final Item SABAN_DAGGER = registerItem("saban_dagger",
+            new SwordItem(ModToolMaterial.SABAN_CRYSTAL,4,3f, new FabricItemSettings()));
 
 
 

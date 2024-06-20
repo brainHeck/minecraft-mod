@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 import net.moggeri.projectmod.ProjectMod;
 import net.moggeri.projectmod.block.ModBlocks;
 
+import javax.swing.text.html.parser.Entity;
+
 public class ModItemGroups {
     public static final ItemGroup DJACONIC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ProjectMod.MOD_ID, "djanium"),
@@ -21,8 +23,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DJANIUM_ORE);
                         entries.add(ModBlocks.SABAN_ORE);
 
-                        entries.add(ModItems.DJANIUM_PICKAXE);
-
                         entries.add(ModItems.DJANIUM_HELMET);
                         entries.add(ModItems.DJANIUM_CHESTPLATE);
                         entries.add(ModItems.DJANIUM_LEGGINGS);
@@ -32,6 +32,18 @@ public class ModItemGroups {
                         entries.add(ModItems.SABAN_CHESTPLATE);
                         entries.add(ModItems.SABAN_LEGGINGS);
                         entries.add(ModItems.SABAN_BOOTS);
+
+                        entries.add(ModItems.DJANIUM_DAGGER);
+                        entries.add(ModItems.DJANIUM_PICKAXE);
+                        entries.add(ModItems.DJANIUM_AXE);
+                        entries.add(ModItems.DJANIUM_SHOVEL);
+                        entries.add(ModItems.DJANIUM_HOE);
+
+                        entries.add(ModItems.SABAN_DAGGER);
+                        entries.add(ModItems.SABAN_PICKAXE);
+                        entries.add(ModItems.SABAN_AXE);
+                        entries.add(ModItems.SABAN_SHOVEL);
+                        entries.add(ModItems.SABAN_HOE);
 
                     }).build());//Dodavanje custom creative table i dodavanje itema u nju
     public static void registeritemGroups(){

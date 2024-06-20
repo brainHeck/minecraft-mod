@@ -15,8 +15,19 @@
   "item.projectmod.saban_leggings": "Saban Leggings",
   "item.projectmod.saban_boots": "Saban Boots",
 
-
+  "item.projectmod.djanium_dagger": "Djanium Dagger",
   "item.projectmod.djanium_pickaxe": "Djanium Pickaxe",
+  "item.projectmod.djanium_axe": "Djanium Axe",
+  "item.projectmod.djanium_shovel": "Djanium Shovel",
+  "item.projectmod.djanium_hoe": "Djanium Hoe",
+
+  "item.projectmod.saban_dagger": "Saban Crystal Dagger",
+  "item.projectmod.saban_pickaxe": "Saban Crystal Pickaxe",
+  "item.projectmod.saban_axe": "Saban Crystal Axe",
+  "item.projectmod.saban_shovel": "Saban Crystal Shovel",
+  "item.projectmod.saban_hoe": "Saban Crystal Hoe",
+
+
 
   "itemgroup.djanium": "Djaconic Revolution"
 }
