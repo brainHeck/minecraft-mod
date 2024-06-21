@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "projectmod",
 	"version": "${version}",
-	"name": "Project Mod",
+	"name": "Djanijum Evolution",
 	"description": "This is a mod that adds new armor and tools, it also adds some features that ease the game!",
 	"authors": [
 		"Aleksandar Stojiljkovic, Pavle Vasic, Djordje Djordjevic"

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "dd",
+    " s",
+    " s"
+  ],
+  "key": {
+    "d": {
+      "item": "projectmod:djanium"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result" : {
+    "item" : "projectmod:djanium_hoe"
+  }
+}

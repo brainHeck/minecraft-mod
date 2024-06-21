@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  c",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "c": {
+      "item": "projectmod:saban_crystal"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result" : {
+    "item" : "projectmod:saban_dagger"
+  }
+}
